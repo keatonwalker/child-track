@@ -1,0 +1,178 @@
+body {
+  background-color: #fff;
+  padding: 15px;
+}
+.button-options {
+  text-align:center;
+  max-width: 500px;
+}
+.options {
+  padding: 15px;
+}
+.divider {
+  height: 1px; 
+  background-color: #000; 
+  text-align: center
+}
+.divider-text {
+  background-color: #fff; 
+  position: relative; 
+  top: -0.75em; 
+  padding: 5px
+}
+
+/* BEGIN: button colors */
+
+.btn-red { 
+  color: #FFFFFF; 
+  background-color: #e74c3c;
+} 
+.btn-red:hover, 
+.btn-red:focus, 
+.btn-red:active, 
+.btn-red.active, 
+.open .dropdown-toggle.btn-red { 
+  color: #FFFFFF; 
+  background-color: #cf4536;
+}
+
+.btn-orange { 
+  color: #ffffff; 
+  background-color: #e67e22; 
+} 
+.btn-orange:hover, 
+.btn-orange:focus, 
+.btn-orange:active, 
+.btn-orange.active, 
+.open .dropdown-toggle.btn-orange { 
+  color: #ffffff; 
+  background-color: #cc701f; 
+}
+
+.btn-yellow { 
+  color: #ffffff; 
+  background-color: #f1c40f; 
+} 
+.btn-yellow:hover, 
+.btn-yellow:focus, 
+.btn-yellow:active, 
+.btn-yellow.active, 
+.open .dropdown-toggle.btn-yellow { 
+  color: #ffffff; 
+  background-color: #d9b00d; 
+}
+
+.btn-green { 
+  color: #FFFFFF; 
+  background-color: #2ecc71; 
+} 
+.btn-green:hover, 
+.btn-green:focus, 
+.btn-green:active, 
+.btn-green.active, 
+.open .dropdown-toggle.btn-green { 
+  color: #FFFFFF; 
+  background-color: #29b362; 
+} 
+
+.btn-turquoise { 
+  color: #FFFFFF; 
+  background-color: #1abc9c; 
+} 
+.btn-turquoise:hover, 
+.btn-turquoise:focus, 
+.btn-turquoise:active, 
+.btn-turquoise.active, 
+.open .dropdown-toggle.btn-turquoise { 
+  color: #FFFFFF; 
+  background-color: #17a387; 
+}
+
+.btn-blue { 
+  color: #ffffff; 
+  background-color: #3498db;  
+} 
+.btn-blue:hover, 
+.btn-blue:focus, 
+.btn-blue:active, 
+.btn-blue.active, 
+.open .dropdown-toggle.btn-blue { 
+  color: #ffffff; 
+  background-color: #2f87c2;
+} 
+
+.btn-purple { 
+  color: #ffffff; 
+  background-color: #9b59b6; 
+} 
+.btn-purple:hover, 
+.btn-purple:focus, 
+.btn-purple:active, 
+.btn-purple.active, 
+.open .dropdown-toggle.btn-purple { 
+  color: #ffffff; 
+  background-color: #854c9c; 
+}
+
+/* END: button colors */
+
+/* BEGIN css for specific templates */
+
+/* BEGIN css used within login and register templates */
+.login, .register {
+  max-width: 330px;
+  margin: 0 auto;
+}
+.login-form, .register-form {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0 auto;
+}
+.login-form .form-control, 
+.register-form .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.login-form .form-control:focus,
+.register-form .form-control {
+  z-index: 2;
+}
+.login-form input[type="email"],
+#inputFirstName {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.login-form input[type="password"],
+#inputPasswordConfirm {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#inputLastName,
+#inputEmail,
+#inputPassword {
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+.login-extra {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/* END css used within login and register templates */
+
+/* BEGIN css used within child main templates */
+.image-container {
+}
+.child-image {
+  max-height: 200px;
+  padding: 10px;
+}
+/* END css used within child main templates */
+
+/* END css for specific pages */

@@ -44,3 +44,7 @@ Temporary Items
 
 # Webstorm
 .idea
+
+# mup
+mup.json
+settings.json
