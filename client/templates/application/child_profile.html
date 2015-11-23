@@ -1,0 +1,36 @@
+<template name ="childProfile">
+    <div class="container">
+
+        <div class="image-container center-block">
+            <img src="../childimage.jpg" class="img-circle child-image center-block" height>
+        </div>
+
+        <div class="register">
+            <h1>profile</h1>
+            <form class="register-form">
+                <label for="inputFirstName" class="sr-only">First Name</label>
+                <input type="text" id="inputFirstName" class="form-control" placeholder={{firstName}} required autofocus>
+
+                <label for="inputEmail" class="sr-only">Middle name</label>
+                <input type="email" id="inputEmail" class="form-control" placeholder={{middleName}} required>
+
+                <label for="inputLastName" class="sr-only">Last Name</label>
+                <input type="text" id="inputLastName" class="form-control" placeholder={{lastName}} required>
+
+                <label for="inputLastName" class="sr-only">Birthdate</label>
+                <input type="text" id="inputLastName" class="form-control" placeholder={{birthdate}} required>
+
+                <label for="inputLastName" class="sr-only">gender</label>
+                <input type="text" id="inputLastName" class="form-control" placeholder={{gender}} required>
+
+                <div class="btn-group btn-toggle">
+                    <button class="btn btn-xs btn-default">ON</button>
+                    <button class="btn btn-xs btn-danger active">OFF</button>
+                </div>
+
+                <button class="btn btn-lg btn-primary btn-block" type="submit">save</button>
+                <button class="btn btn-lg btn-red btn-block" type="submit">delete</button>
+            </form>
+        </div>
+    </div>
+</template>
